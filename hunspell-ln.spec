@@ -1,7 +1,7 @@
 Name: hunspell-ln
 Summary: Lingala hunspell dictionaries
 Version: 0.02
-Release: 6%{?dist}
+Release: 7%{?dist}
 Group: Applications/Text
 Source: http://downloads.sourceforge.net/lingala/hunspell-ln-0.02.zip
 URL: http://lingala.sourceforge.net/
@@ -32,6 +32,9 @@ rm -rf $RPM_BUILD_ROOT
 %{_datadir}/myspell/*
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 0.02-7
+- Mass rebuild 2013-12-27
+
 * Thu Feb 14 2013 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 0.02-6
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_19_Mass_Rebuild
 
